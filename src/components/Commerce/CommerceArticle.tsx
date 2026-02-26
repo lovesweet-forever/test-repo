@@ -1,4 +1,6 @@
 import type { typeCommerce } from '../../types/types'
+import ButtonComponent from '../Button'
+import { SmallSecondary } from '../../utils/buttonType'
 
 interface propsType {
     article:typeCommerce
@@ -24,9 +26,9 @@ const CommerceArticle = (props:propsType) => {
                                 )
                             }
                         </ul>
-                        {/* <div>
-                            <RoundedButton>{props.article.buttonTitle}</RoundedButton>
-                        </div> */}
+                        <div>
+                            <ButtonComponent title={props.article.buttonTitle} type={SmallSecondary}></ButtonComponent>
+                        </div>
                     </div>
                 </div>
             </div>
