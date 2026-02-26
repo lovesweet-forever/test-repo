@@ -12,7 +12,7 @@ function Accordion(props: IAccordion) {
             <>
                 <div className="flex accordion_container">
                     <button id={`${props.id}`} className="flex w-full py-6 pl-4 pr-8 border-b border-borderprimary" onClick={props.onclick}>
-                        <span className="text-4 text-textsecondary font-semibold">{props.title}</span>
+                        <span className="text-base text-textsecondary font-semibold">{props.title}</span>
                     </button>
                 </div>
             </>
@@ -22,7 +22,7 @@ function Accordion(props: IAccordion) {
             <>
                 <div className="flex flex-col accordion_container">
                     <button id={`${props.id}`} className="flex w-full py-6 pl-4 pr-8 border-l-2  border-buttonprimary" onClick={props.onclick}>
-                        <span className="text-4 text-textsecondary font-semibold">{props.title}</span>
+                        <span className="text-base text-textsecondary font-semibold">{props.title}</span>
                     </button>
                     <div className="flex w-full p-4 border-b  border-borderprimary">
                         <p className="font-medium text-sm text-textsecondary">
