@@ -8,7 +8,7 @@ interface propsType  {
 const ImageComponent = (props:propsType) => {
 
     return (
-        <img src={props.name} style={{height:`${props.height}`, width:`${props.width}`}}/>
+        <img src={props.name} style={{height:`${props.height}px`, width:`${props.width}px`}}/>
     )   
 
 }
