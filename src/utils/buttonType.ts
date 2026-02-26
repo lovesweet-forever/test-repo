@@ -1,0 +1,6 @@
+export const BigPrimary = "text-[white] bg-[transparent] px-[24px] pt-[8px] pb-[8px] text-[19px] border-[2px] h-[50px] leading-[19px] border-[white] hover:text-[black] hover:bg-[white]"
+export const BigSecondary = "text-textsecondary bg-[white] px-[24px] pt-[8px] pb-[8px] text-[19px] border-[2px] h-[50px] leading-[19px] border-[white] hover:text-[black]"
+export const MidPrimary = "text-[white] bg-[transparent] px-[18px] pt-[8px] pb-[8px] text-[17px] border-[2px] h-[40px] leading-[17px] border-[white] hover:text-[black] hover:bg-[white]"
+export const MidSecondary = "text-textsecondary bg-[transparent] px-[18px] pt-[8px] pb-[8px] text-[17px] border-[2px] h-[40px] leading-[17px] border-textsecondary hover:text-[white] hover:bg-[black]"
+export const SmallPrimary = "text-[white] bg-buttonprimary px-[14px] pt-[6px] pb-[6px] text-[15px] border-[2px] h-[30px] leading-[15px] border-buttonprimary hover:bg-buttonsecondary"
+export const SmallSecondary = "text-textsecondary bg-[transparent] px-[14px] pt-[5px] pb-[5px] text-[15px] border-[2px] h-[30px] leading-[15px] border-textsecondary hover:text-[white] hover:bg-[black]"

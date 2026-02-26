@@ -2,14 +2,15 @@
 
 @theme {
   --color-buttonprimary: #3b63fb;
+  --color-buttonsecondary: #274dea;
   --color-textprimary: #292929;
-  --color-textlight:"#535353";
-  --color-textsecondary:"#2c2c2c";
-  --color-textdark:"#707070";
-  --color-borderprimary: "#909090";
-  --color-bordersecondary:"#eaeaea";
-  --color-bgcolorprimary:"#fff3e0";
-  --color-bgcolorsecondary:"#6d6d6d";
+  --color-textlight:#535353;
+  --color-textsecondary:#2c2c2c;
+  --color-textdark:#707070;
+  --color-borderprimary: #909090;
+  --color-bordersecondary:#eaeaea;
+  --color-bgcolorprimary:#fff3e0;
+  --color-bgcolorsecondary:#6d6d6d;
 }
 
 :root {
