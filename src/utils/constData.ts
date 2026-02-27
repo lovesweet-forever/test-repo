@@ -24,6 +24,11 @@ export const useCardData = [
     }
 ]
 
+export const learnMoreData = {
+    title: "Adobe commits to agentic commerce standards.",
+    content: "Learn how Adobe Commerce is helping brands capture demand across AI-native shopping channels, while maintaining full control over customer relationships and brand experiences.",
+    explain:["Looking for some of the latest Adobe Commerce releases? Check out ","Adobe Commerce Optimizer"," and ","Adobe Commerce as a Cloud Service"]
+}
 export const commerceData:Array<typeCommerce>  = [
   {
     tabItem:"Digital storefronts",
@@ -128,11 +133,6 @@ export const mainData = {
     details: "Adobe Commerce",
     title: "Exceptional commerce experiences.",
     content: "Adobe Commerce is a composable ecommerce solution that lets you quickly create global, multi-brand B2C and B2B experiences — all from one cloud-native platform. Use it to deliver personalized, high-performance storefront experiences that boost traffic, conversions, and GMV."
-}
-export const BreadCrumbData = {
-    home:"Home",
-    products:"Products",
-    adobe:"Adobe Comerce"
 }
 
 export const contactData = [
