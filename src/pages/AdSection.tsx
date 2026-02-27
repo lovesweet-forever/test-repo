@@ -1,30 +1,9 @@
-import ImageNames from "../utils/imageNames"
+
 import AdCard from "../components/AdCard";
 import ButtonComponent from "../components/Button";
 import * as ButtonType from "../utils/buttonType";
+import { BrandData } from "../utils/constData";
 
-const BrandData = [
-    {
-        image:ImageNames.mark1,
-        title:"89%",
-        description: "conversion rate among re-engaged shoppers"
-    },
-    {
-        image:ImageNames.mark2,
-        title:"41%",
-        description: "conversion rate lift by applying personalization"
-    },
-    {
-        image:ImageNames.mark3,
-        title:"3x faster",
-        description: "page load times."
-    },
-    {
-        image:ImageNames.mark4,
-        title:"44%",
-        description: "increased site visits"
-    }
-]
 
 const AdSection = () => {
     return (
