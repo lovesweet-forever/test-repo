@@ -1,5 +1,5 @@
 import ImageNames from "./imageNames"
-import type { typeCommerce } from "../types/types"
+import type { typeCommerce } from "./types"
 
 export const commerceData:Array<typeCommerce>  = [
   {
