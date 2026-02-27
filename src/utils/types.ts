@@ -5,8 +5,6 @@ export interface useCardType {
     title: string,
     description: string
 }
-
-export interface startedType {
 export interface adCardType {
     image: any,
     width:number,
@@ -23,10 +21,10 @@ export interface integrationType {
     buttontext: string
 }
 export interface typeCommerce{
-    tabItem:String,
-    title:String,
-    smmary:String,
-    articleItems:String[],
-    buttonTitle:String,
+    tabItem:string,
+    title:string,
+    smmary:string,
+    articleItems:string[],
+    buttonTitle:string,
     picture:any
 }

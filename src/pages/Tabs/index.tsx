@@ -1,34 +1,34 @@
-import {useState} from 'react'
+import { useState } from 'react'
 import TabItem from './TabItem'
 import type { typeCommerce } from '../../utils/types';
 import Tab from '../../components/Tab';
+import { commerceData, TabsTitle } from '../../utils/constData';
 
-interface propsType {
-    content: Array<typeCommerce>
-}
-
-const Tabs = (props:propsType) => {
+const Tabs = () => {
     const [flag, setFlag] = useState<number>(0);
 
     return (
-        <div className='border-b-1 border-gray'>
-            <div className='flex flex-row items-center '>
-                <div className="  flex flex-row items-center justify-center">
-                    {
-                        props.content.map((tab, index)=>
-                            <TabItem
-                                key={index} 
-                                index={index} 
-                                tabContent={tab} 
-                                flg={flag}  
-                                onClick={setFlag} 
-                            />
-                        )
-                    }
+        <div className='flex w-full justify-center'>
+            <div className="w-200 text-4xl pt-10 pb-10 text-center font-bold">{TabsTitle}</div>
+            <div className='border-b border-gray'>
+                <div className='flex flex-row items-center '>
+                    <div className="  flex flex-row items-center justify-center">
+                        {
+                            commerceData.map((tab, index) =>
+                                <TabItem
+                                    key={index}
+                                    index={index}
+                                    tabContent={tab}
+                                    flg={flag}
+                                    onClick={setFlag}
+                                />
+                            )
+                        }
+                    </div>
                 </div>
-            </div>
-            <div>
-                <Tab article={props.content[flag]}/>
+                <div>
+                    <Tab article={props.content[flag]} />
+                </div>
             </div>
         </div>
     )

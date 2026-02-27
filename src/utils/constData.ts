@@ -239,3 +239,4 @@ export const commerceItemData = [
         content:`HanesBrands creates the world's fastest storefront.`
     },
 ]
+export const TabsTitle = "Explore the features and capabilities of Adobe Commerce.";
