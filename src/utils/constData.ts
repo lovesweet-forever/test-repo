@@ -22,3 +22,12 @@ export const useCardData = [
         description: "Improve operational efficiency with seamless back-office integration tools."
     }
 ]
+
+export const reportData = {
+    image: ImageNames.counter,
+    width: 500,
+    height: 296,
+    title: 'Adobe named a Leader in the 2025 Gartner® Magic Quadrant™ for B2B Marketing Automation Platforms.',
+    content: "We're honored to be recognized as a Leader based on Ability to Execute and Completeness of Vision.",
+    buttontext: 'Read the report'
+}
