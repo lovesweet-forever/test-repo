@@ -25,7 +25,7 @@ function Accordion(props: IAccordion) {
                         <span className="text-4 text-textsecondary font-semibold">{props.title}</span>
                     </button>
                     <div className="flex w-full p-4 border-b  border-borderprimary">
-                        <p className="font-medium text-[14px] text-textsecondary">
+                        <p className="font-medium text-sm text-textsecondary">
                             {props.content}
                         </p>
                     </div>
