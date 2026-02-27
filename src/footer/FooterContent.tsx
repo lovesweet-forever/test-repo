@@ -12,7 +12,7 @@ const FooterContent = () => {
                                 <div className="text-xs flex flex-col grid-col gap-2 ">
                                     {
                                         data.item.map((li, index) =>
-                                            <a key="index" className="text-xs cursor-pointer hover:text-blue-500">{li}</a>
+                                            <a key={index} className="text-xs cursor-pointer hover:text-blue-500">{li}</a>
                                         )
                                     }
                                 </div>
@@ -28,7 +28,7 @@ const FooterContent = () => {
                                 <div className="text-xs flex flex-col grid-col gap-2 ">
                                     {
                                         data.item.map((li, index) =>
-                                            <a key="index" className="text-xs cursor-pointer hover:text-blue-500">{li}</a>
+                                            <a key={index} className="text-xs cursor-pointer hover:text-blue-500">{li}</a>
                                         )
                                     }
                                 </div>
