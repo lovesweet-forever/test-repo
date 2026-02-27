@@ -6,7 +6,6 @@ export interface useCardType {
     description: string
 }
 
-export interface startedType {
 export interface adCardType {
     image: any,
     width:number,
