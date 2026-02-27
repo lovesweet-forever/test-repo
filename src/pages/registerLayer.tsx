@@ -6,7 +6,6 @@ import ImageNames from "../utils/imageNames";
 
 function RegisterLayer() {
     return(
-        <>
             <div className="flex bg-bgcolorsecondary  content-center justify-center h-26">
                 <div className="flex items-center justify-center">
                     <div className="h-14 mr-6">
@@ -23,7 +22,6 @@ function RegisterLayer() {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 
