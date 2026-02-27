@@ -1,27 +1,35 @@
-import Tab from '../Tab'
-import type { typeCommerce } from '../../types/types';
+import {useState} from 'react'
+import TabItem from './TabItem'
+import type { typeCommerce } from '../../utils/types';
+import Tab from '../Tab';
 
 interface propsType {
     content: Array<typeCommerce>
-    flag:number,
-    setFlag:any
 }
 
 const Tabs = (props:propsType) => {
+    const [flag, setFlag] = useState<number>(0);
 
     return (
-        <div className=" flex flex-row items-center justify-center">
-            {
-                props.content.map((tab, index)=>
-                    <Tab
-                        key={index} 
-                        index={index} 
-                        tabContent={tab} 
-                        flg={props.flag}  
-                        onClick={props.setFlag} 
-                    />
-                )
-            }
+        <div className='border-b-1 border-gray'>
+            <div className='flex flex-row items-center '>
+                <div className="  flex flex-row items-center justify-center">
+                    {
+                        props.content.map((tab, index)=>
+                            <TabItem
+                                key={index} 
+                                index={index} 
+                                tabContent={tab} 
+                                flg={flag}  
+                                onClick={setFlag} 
+                            />
+                        )
+                    }
+                </div>
+            </div>
+            <div>
+                <Tab article={props.content[flag]}/>
+            </div>
         </div>
     )
 }
