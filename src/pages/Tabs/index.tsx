@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import TabItem from './TabItem'
 import type { typeCommerce } from '../../utils/types';
-import Tab from '../Tab';
+import Tab from '../../components/Tab';
 
 interface propsType {
     content: Array<typeCommerce>
