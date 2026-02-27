@@ -18,7 +18,6 @@ function AccordionLayer(props: IAccordionData) {
         setFlag(flag.map((p, i) => i === Number(e.currentTarget.id) ? p = !p : p));
     }
     return (
-        <>
             <div className="flex  flex-col content-center items-center py-14 mb-1">
                 <div className="flex w-250 justify-center">
                     <h1 className="text-3xl text-textsecondary font-bold">
@@ -33,7 +32,6 @@ function AccordionLayer(props: IAccordionData) {
                     </div>
                 </div>
             </div>
-        </>
     )
 }
 export default AccordionLayer;
