@@ -22,3 +22,11 @@ export const useCardData = [
         description: "Improve operational efficiency with seamless back-office integration tools."
     }
 ]
+
+export const startedType = {
+    image: ImageNames.b2b,
+    width: 500,
+    height: 375,
+    title: "Let’s talk about what Adobe Commerce can do for your business.",
+    buttontext: "Get started"
+}
