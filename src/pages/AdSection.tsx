@@ -26,7 +26,7 @@ const BrandData = [
     }
 ]
 
-const Brands = () => {
+const AdSection = () => {
     return (
         <div className="w-full flex justify-center items-center">
             <div className="w-200 pt-10 pb-10 text-4xl text-center font-bold">Adobe drives global sales for top brands.</div>
@@ -44,4 +44,4 @@ const Brands = () => {
     )
 }
 
-export default Brands;
+export default AdSection;
