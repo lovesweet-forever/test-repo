@@ -6,7 +6,7 @@ interface propsType {
     article:typeCommerce
 }
 
-const CommerceArticle = (props:propsType) => {
+const Tab = (props:propsType) => {
     return (
         <div className=' w-full flex justify-center items-center py-10' >
             <div className=' w-full py-3 grid grid-cols-2'>
@@ -35,4 +35,4 @@ const CommerceArticle = (props:propsType) => {
         </div>
     )
 }
-export default CommerceArticle;
+export default Tab;
