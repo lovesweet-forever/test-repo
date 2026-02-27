@@ -6,9 +6,8 @@ import ImageNames from "../utils/imageNames";
 
 function LearnMoreLayer() {
     return (
-        <div className="w-full flex justify-center">
-            <div className="flex content-center w-300 h-118">
-                <div className="flex justify-center py-10 w-full h-full">
+
+                <div className="flex justify-center w-300 h-118 m-auto py-10  ">
                     <div className={`w-full h-full bg-cover rounded-2xl py-10 pl-10`} style={{ backgroundImage: `url(${ImageNames.handsome})` }}>
                         <div className="flex flex-col h-76 w-115">
                             <h1 className="text-textsecondary text-3xl font-semibold">{learnMoreData.title}</h1>
@@ -29,10 +28,8 @@ function LearnMoreLayer() {
                                 </a>.
                             </p>
                         </div>
-                    </div>
                 </div>
             </div>
-        </div>
     )
 }
 export default LearnMoreLayer;
