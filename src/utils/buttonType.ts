@@ -4,3 +4,4 @@ export const MidPrimary = "text-[white] bg-[transparent] px-[18px] py-2 text-[17
 export const MidSecondary = "text-textsecondary bg-[transparent] px-[18px] py-2 text-[17px] border-[2px] h-10 leading-[17px] border-textsecondary hover:text-[white] hover:bg-[black]"
 export const SmallPrimary = "text-[white] bg-buttonprimary px-[14px] py-[6px] text-[15px] border-[2px] h-[30px] leading-[15px] border-buttonprimary hover:bg-buttonsecondary"
 export const SmallSecondary = "text-textsecondary bg-[transparent] px-[14px] py-[5px] text-[15px] border-[2px] h-[30px] leading-[15px] border-textsecondary hover:text-[white] hover:bg-[black]"
+export const SmallThird = "text-black bg-white px-[14px] py-[5px] text-[15px] border-[2px] h-[30px] leading-[15px] border-textsecondary hover:text-black-500/100 hover:bg-white-500/100 cursor-pointer"

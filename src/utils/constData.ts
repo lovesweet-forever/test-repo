@@ -23,6 +23,13 @@ export const useCardData = [
     }
 ]
 
+export const startedData = {
+    image: ImageNames.b2b,
+    width: 500,
+    height: 375,
+    title: "Let’s talk about what Adobe Commerce can do for your business.",
+    buttontext: "Get started"
+}
 export const BrandData = [
     {
         image:ImageNames.mark1,

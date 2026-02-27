@@ -6,6 +6,7 @@ export interface useCardType {
     description: string
 }
 
+export interface startedType {
 export interface adCardType {
     image: any,
     width:number,
@@ -19,8 +20,8 @@ export interface integrationType {
     width: number,
     height: number,
     title: string,
-    content: string,
     buttontext: string
+}
 export interface typeCommerce{
     tabItem:String,
     title:String,
