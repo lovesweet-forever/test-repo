@@ -27,7 +27,7 @@ const Tabs = () => {
                     </div>
                 </div>
                 <div>
-                    <Tab article={props.content[flag]} />
+                    <Tab article={commerceData[flag]} />
                 </div>
             </div>
         </div>

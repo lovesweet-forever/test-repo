@@ -4,6 +4,7 @@ export const MidPrimary = "text-white bg-[transparent] leading-5 px-4 py-2 text-
 export const MidSecondary = "text-textsecondary leading-5 bg-[transparent] px-4 py-2 text-lg border-[2px] h-10 border-textsecondary hover:text-white hover:bg-black rounded-full"
 export const SmallPrimary = "text-white bg-buttonprimary  px-3 text-center py-2 text-sm border-[2px] h-7 leading-2 border-buttonprimary hover:bg-buttonsecondary rounded-full"
 export const SmallSecondary = "text-textsecondary bg-[transparent]  px-3 py-2 text-sm border-[2px] h-7 leading-2 border-textsecondary hover:text-white hover:bg-black rounded-full"
+export const SmallThird = "text-textsecondary bg-white  px-3 py-2 text-sm border-[2px] h-7 leading-2 border-textsecondary hover:text-white hover:bg-black rounded-full"
 export const DropButtonPrimary = {type:"h-full",style:"text-sm  text-textsecondary"}
 export const DropButtonSecondary = {type:"border-b-[2px] border-black h-full",style:"text-sm font-semibold text-textsecondary"}
 export const DropButtonThird = {type:"h-full px-3",style:"text-sm text-textsecondary",xborder:"border-x border-bordersecondary"}
