@@ -5,7 +5,7 @@ interface IButton {
 
 function ButtonComponent(props: IButton) {
     return (
-        <button className={`${props.type} rounded-full`} >
+        <button className={`${props.type}`} >
             {props.title}
         </button>
     )
