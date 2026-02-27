@@ -22,3 +22,8 @@ export const useCardData = [
         description: "Improve operational efficiency with seamless back-office integration tools."
     }
 ]
+
+export const registerData = {
+    title:"See the future of marketing, creativity and AI.",
+    content:"Join us in Las Vegas, April 19-22. "
+}
