@@ -8,9 +8,10 @@
   --color-textsecondary: #2c2c2c;
   --color-textdark: #707070;
   --color-borderprimary: #909090;
-  --color-bordersecondary: #eaeaea;
-  --color-bgcolorprimary: #fff3e0;
-  --color-bgcolorsecondary: #6d6d6d;
+  --color-bordersecondary:#eaeaea;
+  --color-bgcolorprimary:#fff3e0;
+  --color-bgcolorsecondary:#6d6d6d;
+  --color-bgcolorcontract:#FAFAFA;
   --color-bglight: #f8f8f8;
   --color-borderthird: #e9e9e9;
 }
