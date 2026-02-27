@@ -6,7 +6,6 @@ import ImageNames from "../utils/imageNames";
 
 function LearnMoreLayer() {
     return (
-
                 <div className="flex justify-center w-300 h-118 m-auto py-10  ">
                     <div className={`w-full h-full bg-cover rounded-2xl py-10 pl-10`} style={{ backgroundImage: `url(${ImageNames.handsome})` }}>
                         <div className="flex flex-col h-76 w-115">
