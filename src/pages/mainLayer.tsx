@@ -12,7 +12,7 @@ interface IMain {
 
 function MainLayer(props: IMain) {
     return (
-            <div className="flex flex-row">
+            <div className="flex flex-row mt-24">
                 <div className="flex-1 flex bg-black justify-end content-center items-center leading-7">
                     <div className="flex flex-col gap-4 content-between w-150 h-91 pr-25">
                         <div className="flex ">
