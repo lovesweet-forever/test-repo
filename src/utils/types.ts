@@ -5,6 +5,7 @@ export interface useCardType {
     title: string,
     description: string
 }
+
 export interface adCardType {
     image: any,
     width:number,

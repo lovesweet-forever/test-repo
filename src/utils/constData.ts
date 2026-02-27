@@ -92,6 +92,14 @@ export const commerceData:Array<typeCommerce>  = [
     picture:ImageNames.tab_4,
   },
 ]
+
+export const mainData = {
+    details: "Adobe Commerce",
+    title: "Exceptional commerce experiences.",
+    content: "Adobe Commerce is a composable ecommerce solution that lets you quickly create global, multi-brand B2C and B2B experiences — all from one cloud-native platform. Use it to deliver personalized, high-performance storefront experiences that boost traffic, conversions, and GMV."
+}
+
+
 export const contactData = [
     {
         topic: 'Contact Us',
