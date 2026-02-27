@@ -23,6 +23,12 @@ export const useCardData = [
         description: "Improve operational efficiency with seamless back-office integration tools."
     }
 ]
+
+export const learnMoreData = {
+    title: "Adobe commits to agentic commerce standards.",
+    content: "Learn how Adobe Commerce is helping brands capture demand across AI-native shopping channels, while maintaining full control over customer relationships and brand experiences.",
+    explain:["Looking for some of the latest Adobe Commerce releases? Check out ","Adobe Commerce Optimizer"," and ","Adobe Commerce as a Cloud Service"]
+}
 export const BreadCrumbData = {
     home:"Home",
     products:"Products",
@@ -135,7 +141,6 @@ export const mainData = {
     title: "Exceptional commerce experiences.",
     content: "Adobe Commerce is a composable ecommerce solution that lets you quickly create global, multi-brand B2C and B2B experiences — all from one cloud-native platform. Use it to deliver personalized, high-performance storefront experiences that boost traffic, conversions, and GMV."
 }
-
 
 export const contactData = [
     {
@@ -285,3 +290,7 @@ export const commerceItemData = [
     },
 ]
 export const TabsTitle = "Explore the features and capabilities of Adobe Commerce.";
+export const ContractTitle = "Let us show you the full power of Adobe Commerce."
+export const adobeTitle = "Dive deeper into Adobe Commerce.";
+export const adverTitle = "Adobe drives global sales for top brands.";
+export const usecaseTitle = "Adobe Commerce use CaseTitle.";

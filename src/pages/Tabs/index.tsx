@@ -8,7 +8,7 @@ const Tabs = () => {
     const [flag, setFlag] = useState<number>(0);
 
     return (
-        <div className='flex w-full justify-center'>
+        <div className='flex w-full items-center flex-col '>
             <div className="w-200 text-4xl pt-10 pb-10 text-center font-bold">{TabsTitle}</div>
             <div className='border-b border-gray'>
                 <div className='flex flex-row items-center '>
