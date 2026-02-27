@@ -9,7 +9,7 @@ const GetStarted = () => {
             <div className="w-100 pt-20 flex flex-col justify-self-center">
                 <p className="w-175 text-4xl text-white">{startedData.title}</p>
                 <div className="pt-5">
-                    <ButtonComponent type={ButtonType.SmallPrimary} title={startedData.buttontext}/>
+                    <ButtonComponent type={ButtonType.SmallThird} title={startedData.buttontext}/>
                 </div>
             </div>
             <div className="w-125 ">
