@@ -7,3 +7,4 @@ export const SmallSecondary = "text-textsecondary bg-[transparent]  px-3 py-2 te
 export const DropButtonPrimary = {type:"h-full",style:"text-sm  text-textsecondary"}
 export const DropButtonSecondary = {type:"border-b-[2px] border-black h-full",style:"text-sm font-semibold text-textsecondary"}
 export const DropButtonThird = {type:"h-full px-3",style:"text-sm text-textsecondary",xborder:"border-x border-bordersecondary"}
+export const SmallThird = "text-textsecondary bg-[white]  px-3 py-2 text-sm border-[2px] h-7 leading-2 border-textsecondary hover:text-white hover:bg-black rounded-full"
