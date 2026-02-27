@@ -1,6 +1,9 @@
-export const BigPrimary = "text-[white] bg-[transparent] px-6 py-2 text-[19px] border-2 h-[50px] leading-[19px] border-[white] hover:text-[black] hover:bg-[white]"
-export const BigSecondary = "text-textsecondary bg-[white] px-6 py-2 text-[19px] border-[2px] h-[50px] leading-[19px] border-[white] hover:text-[black]"
-export const MidPrimary = "text-[white] bg-[transparent] px-[18px] py-2 text-[17px] border-[2px] h-10 leading-[17px] border-[white] hover:text-[black] hover:bg-[white]"
-export const MidSecondary = "text-textsecondary bg-[transparent] px-[18px] py-2 text-[17px] border-[2px] h-10 leading-[17px] border-textsecondary hover:text-[white] hover:bg-[black]"
-export const SmallPrimary = "text-[white] bg-buttonprimary px-[14px] py-[6px] text-[15px] border-[2px] h-[30px] leading-[15px] border-buttonprimary hover:bg-buttonsecondary"
-export const SmallSecondary = "text-textsecondary bg-[transparent] px-[14px] py-[5px] text-[15px] border-[2px] h-[30px] leading-[15px] border-textsecondary hover:text-[white] hover:bg-[black]"
+export const BigPrimary = "text-white bg-[transparent] leading-5 px-6  py-2 text-xl border-2 h-12  border-white hover:text-black hover:bg-white rounded-full"
+export const BigSecondary = "text-textsecondary bg-white leading-5 px-6 py-2 text-xl border-[2px] h-12  border-white hover:text-black rounded-full"
+export const MidPrimary = "text-white bg-[transparent] leading-5 px-4 py-2 text-lg border-[2px] h-10 border-white hover:text-black hover:bg-white rounded-full"
+export const MidSecondary = "text-textsecondary leading-5 bg-[transparent] px-4 py-2 text-lg border-[2px] h-10 border-textsecondary hover:text-white hover:bg-black rounded-full"
+export const SmallPrimary = "text-white bg-buttonprimary  px-3 text-center py-2 text-sm border-[2px] h-7 leading-2 border-buttonprimary hover:bg-buttonsecondary rounded-full"
+export const SmallSecondary = "text-textsecondary bg-[transparent]  px-3 py-2 text-sm border-[2px] h-7 leading-2 border-textsecondary hover:text-white hover:bg-black rounded-full"
+export const DropButtonPrimary = {type:"h-full",style:"text-sm  text-textsecondary"}
+export const DropButtonSecondary = {type:"border-b-[2px] border-black h-full",style:"text-sm font-semibold text-textsecondary"}
+export const DropButtonThird = {type:"h-full px-3",style:"text-sm text-textsecondary",xborder:"border-x border-bordersecondary"}
