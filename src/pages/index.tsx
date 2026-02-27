@@ -20,7 +20,6 @@ function Body(){
             <AdSection></AdSection>
             <AdobeCommerce></AdobeCommerce>
             <Integration></Integration>
-            <Accordion></Accordion>
             <GetStarted></GetStarted>
         </>
     )
