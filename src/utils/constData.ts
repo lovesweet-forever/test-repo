@@ -22,3 +22,12 @@ export const useCardData = [
         description: "Improve operational efficiency with seamless back-office integration tools."
     }
 ]
+
+export const integrationData = {
+    image:ImageNames.integration,
+    width:"500",
+    height:"333",
+    title:"Extend your Adobe Commerce capabilities even further.",
+    content: "Integrate Adobe Commerce with your existing tech stack to enhance creativity, personalize experiences, and connect data across channels.",
+    buttontext: "Go to Integrations"
+}
