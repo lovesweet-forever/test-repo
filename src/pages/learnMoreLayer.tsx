@@ -1,5 +1,5 @@
 import ButtonComponent from "../components/Button";
-import { MidPrimary, MidSecondary } from "../utils/buttonType";
+import { MidSecondary } from "../utils/buttonType";
 import { learnMoreData } from "../utils/constData";
 import ImageNames from "../utils/imageNames";
 
