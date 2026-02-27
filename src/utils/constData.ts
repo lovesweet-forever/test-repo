@@ -31,3 +31,35 @@ export const reportData = {
     content: "We're honored to be recognized as a Leader based on Ability to Execute and Completeness of Vision.",
     buttontext: 'Read the report'
 }
+export const commerceItemData = [
+    {
+        icon:ImageNames.webniar,
+        title:'Webinar',
+        content:'Adobe Commerce: Building the Experience-Led Commerce Platform'
+    },
+    {
+        icon:ImageNames.caseStudy,
+        title:'Customer',
+        content:`Signify increases net merchandized value by 55%.`
+    },
+    {
+        icon:ImageNames.eventSession,
+        title:'Event session',
+        content:'Adobe Commerce 2025 product roadmap review.'
+    },
+    {
+        icon:ImageNames.guide,
+        title:'Guide',
+        content:'Five must-haves for your B2B and B2C commerce platform.'
+    },
+    {
+        icon:ImageNames.guide,
+        title:'guide',
+        content:'Getting started with Adobe Commerce.'
+    },
+    {
+        icon:ImageNames.eventSession,
+        title:'Event session',
+        content:`HanesBrands creates the world's fastest storefront.`
+    },
+]
