@@ -1,4 +1,5 @@
 import Accordion from "../components/Accordian";
+import AccordionLayer from "./accordianlayer";
 import AdobeCommerce from "./AdobeCommerce";
 import AdSection from "./AdSection";
 import BreadCrumbs from "./breadCrumbs";
@@ -20,6 +21,7 @@ function Body(){
             <AdSection></AdSection>
             <AdobeCommerce></AdobeCommerce>
             <Integration></Integration>
+            <AccordionLayer></AccordionLayer>
             <GetStarted></GetStarted>
         </>
     )
