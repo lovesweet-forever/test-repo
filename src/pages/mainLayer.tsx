@@ -12,7 +12,6 @@ interface IMain {
 
 function MainLayer(props: IMain) {
     return (
-        <>
             <div className="flex flex-row">
                 <div className="flex-1 flex bg-black justify-end content-center items-center leading-7">
                     <div className="flex flex-col gap-4 content-between w-150 h-91 pr-25">
@@ -41,7 +40,6 @@ function MainLayer(props: IMain) {
                     <ImageComponent name={ImageName.dashboard} height={688} width={960} ></ImageComponent>
                 </div>
             </div>
-        </>
     )
 }
 
