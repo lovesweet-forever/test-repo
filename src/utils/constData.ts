@@ -23,7 +23,7 @@ export const useCardData = [
     }
 ]
 
-export const startedType = {
+export const startedData = {
     image: ImageNames.b2b,
     width: 500,
     height: 375,
