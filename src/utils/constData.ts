@@ -23,6 +23,28 @@ export const useCardData = [
     }
 ]
 
+export const BrandData = [
+    {
+        image:ImageNames.mark1,
+        title:"89%",
+        description: "conversion rate among re-engaged shoppers"
+    },
+    {
+        image:ImageNames.mark2,
+        title:"41%",
+        description: "conversion rate lift by applying personalization"
+    },
+    {
+        image:ImageNames.mark3,
+        title:"3x faster",
+        description: "page load times."
+    },
+    {
+        image:ImageNames.mark4,
+        title:"44%",
+        description: "increased site visits"
+    }
+]
 export const integrationData = {
     image:ImageNames.integration,
     width:500,
