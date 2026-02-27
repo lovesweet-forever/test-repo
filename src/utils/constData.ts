@@ -26,6 +26,42 @@ export const useCardData = [
 export const registerData = {
     title:"See the future of marketing, creativity and AI.",
     content:"Join us in Las Vegas, April 19-22. "
+export const startedData = {
+    image: ImageNames.b2b,
+    width: 500,
+    height: 375,
+    title: "Let’s talk about what Adobe Commerce can do for your business.",
+    buttontext: "Get started"
+}
+export const BrandData = [
+    {
+        image:ImageNames.mark1,
+        title:"89%",
+        description: "conversion rate among re-engaged shoppers"
+    },
+    {
+        image:ImageNames.mark2,
+        title:"41%",
+        description: "conversion rate lift by applying personalization"
+    },
+    {
+        image:ImageNames.mark3,
+        title:"3x faster",
+        description: "page load times."
+    },
+    {
+        image:ImageNames.mark4,
+        title:"44%",
+        description: "increased site visits"
+    }
+]
+export const integrationData = {
+    image:ImageNames.integration,
+    width:500,
+    height:333,
+    title:"Extend your Adobe Commerce capabilities even further.",
+    content: "Integrate Adobe Commerce with your existing tech stack to enhance creativity, personalize experiences, and connect data across channels.",
+    buttontext: "Go to Integrations"
 }
 export const reportData = {
     image: ImageNames.counter,
