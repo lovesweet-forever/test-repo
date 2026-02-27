@@ -22,10 +22,10 @@ export interface integrationType {
     buttontext: string
 }
 export interface typeCommerce{
-    tabItem:String,
-    title:String,
-    smmary:String,
-    articleItems:String[],
-    buttonTitle:String,
+    tabItem:string,
+    title:string,
+    smmary:string,
+    articleItems:string[],
+    buttonTitle:string,
     picture:any
 }
