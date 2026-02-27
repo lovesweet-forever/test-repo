@@ -23,6 +23,9 @@ export const useCardData = [
     }
 ]
 
+export const registerData = {
+    title:"See the future of marketing, creativity and AI.",
+    content:"Join us in Las Vegas, April 19-22. "
 export const startedData = {
     image: ImageNames.b2b,
     width: 500,
