@@ -2,7 +2,7 @@ import { contactData, contentsData } from "../utils/constData";
 
 const FooterContent = () => {
     return (
-        <div className="w-full mt-15">
+        <div className="w-full mt-8">
             <div className="grid grid-cols-5  ">
                 <div className=" flex-wrap gap-3 justify-around pl-50">
                     {

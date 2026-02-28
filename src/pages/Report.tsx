@@ -6,7 +6,7 @@ import { reportData } from "../utils/constData";
 
 const Report = () => {
     return (
-        <div className="grid grid-cols-2 gap-x-20 gap-y-3 h-105">
+        <div className="grid grid-cols-2 gap-x-20 gap-y-3 my-22 h-105">
             <div className="w-full h-105 flex  items-center justify-end">
                 <ImageComponent name={reportData.image} width={reportData.width} height={reportData.height} />
             </div>

@@ -5,7 +5,7 @@ import { startedData } from "../utils/constData";
 
 const GetStarted = () => {
     return (
-        <div className="grid grid-cols-2 gap-3 pt-10 bg-black">
+        <div className="grid grid-cols-2 gap-3 pt-10 mt-10 bg-black">
             <div className="w-100 pt-20 flex flex-col justify-self-center">
                 <p className="w-175 text-4xl text-white">{startedData.title}</p>
                 <div className="pt-5">

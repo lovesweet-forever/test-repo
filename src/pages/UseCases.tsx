@@ -1,10 +1,10 @@
 import UseCard from "../components/UseCard";
-import { useCardData } from "../utils/constData";
+import { useCardData, usecaseTitle } from "../utils/constData";
 
 const UseCases = () => {
     return (
-        <div className="w-full flex flex-column justify-center items-center">
-            <div className="w-200 text-4xl pt-10 pb-10 text-center font-bold">Adobe Commerce use CaseTitle.</div>
+        <div className="w-full flex flex-col justify-center items-center">
+            <div className="w-200 text-4xl pt-10 pb-10 text-center font-bold">{usecaseTitle}</div>
             <div className="grid grid-cols-2 gap-3">
                 {
                     useCardData.map((content,index) => 

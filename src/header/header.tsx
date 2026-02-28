@@ -6,7 +6,7 @@ import ImageNames from "../utils/imageNames"
 
 function Header() {
     return (
-        <div className="w-full navbar_fixed bg-white flex justify-center border-b border-bordersecondary">
+        <div className="w-full top-0 overflow-hidden bg-white flex fixed justify-center border-b ">
             <nav className="h-16 flex content-center justify-center w-full px-60">
                 <div className="flex flex-row items-center justify-between w-full" >
                     <div className="flex items-center h-full">

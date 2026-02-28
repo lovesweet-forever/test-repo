@@ -29,6 +29,12 @@ export const learnMoreData = {
     content: "Learn how Adobe Commerce is helping brands capture demand across AI-native shopping channels, while maintaining full control over customer relationships and brand experiences.",
     explain:["Looking for some of the latest Adobe Commerce releases? Check out ","Adobe Commerce Optimizer"," and ","Adobe Commerce as a Cloud Service"]
 }
+export const BreadCrumbData = {
+    home:"Home",
+    products:"Products",
+    adobe:"Adobe Comerce"
+}
+
 export const commerceData:Array<typeCommerce>  = [
   {
     tabItem:"Digital storefronts",
@@ -129,6 +135,7 @@ export const AccordionData = [
     },
 ]
 export const AccordionTitle = "Questions? We have answers."
+
 export const mainData = {
     details: "Adobe Commerce",
     title: "Exceptional commerce experiences.",
@@ -282,3 +289,8 @@ export const commerceItemData = [
         content:`HanesBrands creates the world's fastest storefront.`
     },
 ]
+export const TabsTitle = "Explore the features and capabilities of Adobe Commerce.";
+export const ContractTitle = "Let us show you the full power of Adobe Commerce."
+export const adobeTitle = "Dive deeper into Adobe Commerce.";
+export const adverTitle = "Adobe drives global sales for top brands.";
+export const usecaseTitle = "Adobe Commerce use CaseTitle.";

@@ -2,14 +2,14 @@
 import AdCard from "../components/AdCard";
 import ButtonComponent from "../components/Button";
 import * as ButtonType from "../utils/buttonType";
-import { BrandData } from "../utils/constData";
+import { adverTitle, BrandData } from "../utils/constData";
 
 
 const AdSection = () => {
     return (
-        <div className="w-full flex justify-center items-center">
-            <div className="w-200 pt-10 pb-10 text-4xl text-center font-bold">Adobe drives global sales for top brands.</div>
-            <div className="grid grid-cols-4 gap-3 p-40">
+        <div className="w-full flex flex-col justify-center items-center pb-10">
+            <div className="w-200 pt-10 pb-10 text-4xl text-center font-bold">{adverTitle}</div>
+            <div className="grid grid-cols-4 gap-3 px-40 py-10">
                 {
                     BrandData.map((content, index) => 
                         <div>

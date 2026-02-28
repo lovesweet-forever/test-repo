@@ -1,10 +1,14 @@
 import ButtonComponent from "../../components/Button";
 import { SmallPrimary } from "../../utils/buttonType";
+import { ContractTitle } from "../../utils/constData";
 
 const Contact = () => {
     return (
-        <div className="w-full flex justify-center">
+        <div className="w-full flex-col flex items-center justify-center">
+             <div className="w-200 pt-10 pb-10 text-4xl text-center font-bold">{ContractTitle}</div>
             <div className="flex flex-col items-center min-w-[585px] min-h-[317px] bg-bgcolorcontract py-14 px-10 grid-col gap-10">
+                           
+
                     <div className="flex flex-row grid-row gap-4">
                         <div className="flex flex-col"> 
                             <label className="text-sm font-bold text-gray-600">Business email*</label>
